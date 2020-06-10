@@ -8,13 +8,13 @@ import {
   TouchableHighlight,
   DatePickerAndroid,
   TimePickerAndroid,
-  DatePickerIOS,
   Platform,
   Animated,
   Keyboard
 } from 'react-native';
 import Style from './style';
 import Moment from 'moment';
+import DateTimePicker from '@react-native-community/datetimepicker';
 
 const FORMATS = {
   'date': 'YYYY-MM-DD',

@@ -386,7 +386,7 @@ class DatePicker extends Component {
                         onChange={this.onDateChange}
                         minuteInterval={minuteInterval}
                         timeZoneOffsetInMinutes={timeZoneOffsetInMinutes ? timeZoneOffsetInMinutes : null}
-                        style={[{marginTop:10}, customStyles.datePicker]}
+                        style={[Style.datePicker, customStyles.datePicker]}
                         locale={locale}
                       />
                     </View>
